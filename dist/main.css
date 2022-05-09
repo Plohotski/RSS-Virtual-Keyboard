@@ -1,0 +1,113 @@
+.hello {
+   color: #000;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.textarea {
+   background-color: rgb(205, 229, 252);
+   width: 1000px;
+   height: 200px;
+}
+
+.keyboard {
+   display: block;
+   border: 2px solid #000;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: rgb(221, 221, 211);
+}
+
+.clearfix {
+   display: block;
+   width: 100%;
+   clear: both;
+}
+
+.k-key {
+   width: 50px;
+   height: 50px;
+   border: 1px solid #000;
+   border-radius: 5px;
+   margin: 3px;
+   padding: 3px;
+   float: left;
+   transition: .5s;
+   background-color: #FFF;
+}
+
+.k-key:nth-child(14) {
+   width: 150px;
+}
+
+.k-key:nth-child(16) {
+   width: 100px;
+}
+
+.k-key:nth-child(29) {
+   width: 100px;
+}
+
+.k-key:nth-child(31) {
+   width: 100px;
+}
+
+.k-key:nth-child(44) {
+   width: 100px;
+}
+
+.k-key:nth-child(46) {
+   width: 125px;
+}
+
+.k-key:nth-child(58) {
+   width: 140px;
+}
+
+.k-key:nth-child(63) {
+   width: 448px;
+   border-radius: 15px;
+}
+
+.k-key:nth-child(57) {
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.k-key:nth-child(65) {
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.k-key:nth-child(66) {
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.k-key:nth-child(67) {
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.k-key:nth-child(68) {
+   width: 75px;
+}
+
+.active {
+   background-color: aquamarine;
+   transition: .5s;
+}
