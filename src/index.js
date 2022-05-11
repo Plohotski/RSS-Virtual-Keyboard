@@ -79,7 +79,8 @@ document.addEventListener('keydown', (KeyboardEvent) => {
       break;
   }
   if (outArr.includes(tempKey) !== true) {
-    if (!['▲', '◄', '▼', '◄'].includes(tempKey)) textarea.push(tempKey);
+    if (['▲', '◄', '▼', '►'].includes(tempKey) && isInput === false) textarea.push(tempKey);
+    if (!['▲', '◄', '▼', '►'].includes(tempKey)) textarea.push(tempKey);
     if (isInput === false) inputText.value = textarea.join('');
   }
 });
